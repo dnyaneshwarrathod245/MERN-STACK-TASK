@@ -1,0 +1,51 @@
+.hero{
+    height: 90vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+
+     url("https://assets.nflxext.com/ffe/siteui/vlv3/9b43d4c5-64c7-4d8d-9d6e-8e2cf236503d/hero-bg.jpg");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+    .overlay{
+        text-align: center;
+        color: white;
+        max-width: 700px;
+        padding: 20px;
+
+    }
+    .overlay h1{
+        font-size: 60px;
+        font-weight: bold;
+
+    }
+      .overlay h2{
+        margin-top: 20px;
+        font-size: 28px;
+
+      }
+
+      .email-box{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+       .email-box input{
+        width: 350px;
+        padding: 15px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+
+       }
+
+       .email-box button:hover{
+        background:darkred ;
+       }
